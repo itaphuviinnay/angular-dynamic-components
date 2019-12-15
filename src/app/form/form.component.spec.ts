@@ -1,15 +1,15 @@
 import { TestBed, async } from "@angular/core/testing";
-import { AppComponent } from "./app.component";
+import { FormComponent } from "./form.component";
 
-describe("AppComponent", () => {
+describe("FormComponent", () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [AppComponent]
+      declarations: [FormComponent]
     }).compileComponents();
   }));
 
-  it("should create the app", () => {
-    const fixture = TestBed.createComponent(AppComponent);
+  it("should create", () => {
+    const fixture = TestBed.createComponent(FormComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   });

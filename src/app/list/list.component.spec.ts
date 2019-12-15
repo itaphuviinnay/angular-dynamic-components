@@ -1,15 +1,15 @@
 import { TestBed, async } from "@angular/core/testing";
-import { AppComponent } from "./app.component";
+import { ListComponent } from "./list.component";
 
-describe("AppComponent", () => {
+describe("ListComponent", () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [AppComponent]
+      declarations: [ListComponent]
     }).compileComponents();
   }));
 
-  it("should create the app", () => {
-    const fixture = TestBed.createComponent(AppComponent);
+  it("should create", () => {
+    const fixture = TestBed.createComponent(ListComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   });
